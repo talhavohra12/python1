@@ -1,0 +1,17 @@
+number1=int(input('enter first number'))
+number2=int(input('enter second number'))
+operator=input('enter the arithematic operator')
+if operator == "add":
+    sum = number1 + number2
+    print(sum)
+elif operator == "subtraction":
+    sub = number1 - number2
+    print(sub)
+elif operator == "multiplication":
+    mul=number1*number2
+    print(mul)
+elif operator == "division":
+    div=number1/number2
+    print(div)
+else:
+    print("invalid syntax")
